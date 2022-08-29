@@ -1,0 +1,87 @@
+body {
+    font-family: 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+
+h1 {
+    display: block;
+    text-align: center;
+    letter-spacing: 8px;
+}
+
+h3 {
+    color: green;
+    border-bottom: green 1px solid;
+}
+
+h4 {
+    color: brown;
+}
+
+footer {
+    color: gray;
+    text-align: center;
+    font-style: italic;
+    padding: 10px 10px;
+}
+
+#principal {
+    padding: 10px 15px;
+    border: 1px solid gray;
+    width: 900px;
+    background: rgb(174,180,184);
+    background: linear-gradient(180deg, rgba(174,180,184,1) 0%, rgba(246,246,246,1) 10%, rgba(246,246,246,1) 90%, rgba(174,180,184,1) 100%); 
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    background: rgb(246,246,246);
+    background: linear-gradient(180deg, rgba(246,246,246,1) 40%, rgba(72,203,94,1) 100%); 
+    color: gray;
+    padding: 5px 25px;
+    text-align: center;
+    border: 1px solid gray;
+    margin: 5px;
+}
+
+#visitada {
+    background: rgb(246,246,246);
+    background: linear-gradient(180deg, rgba(246,246,246,1) 40%, rgba(203,72,72,1) 100%); 
+    color: black;
+}
+
+li:hover {
+    background: rgb(246,246,246);
+    background: linear-gradient(0deg, rgba(246,246,246,1) 40%, rgba(72,203,102,1) 100%);
+}
+
+li a {
+    text-decoration: none;
+}
+
+#foto {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.titulo1 {
+    color: green;
+}
+
+.titulo2 {
+    color: brown;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: flex-start;
+    gap: 30px;
+    
+    text-align: justify;
+}
